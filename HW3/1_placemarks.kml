@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="Halls">
+<IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href></Icon></IconStyle>
+</Style>
+<Style id="Libraries">
+<IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>
+</Style>
+<Style id="Cafes">
+<IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle>
+</Style>
+<Style id="transPurpleLineGreenPoly">
+<LineStyle> <width>1.5</width>
+</LineStyle> <PolyStyle>
+<color>7fff00ff</color> </PolyStyle>
+</Style>
+<Placemark><name>Percy Andrus Library</name>
+<styleUrl>#Libraries</styleUrl><Point><coordinates>-118.290529,34.019947</coordinates></Point>
+</Placemark>
+<Placemark><name>Helen Topping Library</name>
+<styleUrl>#Libraries</styleUrl><Point><coordinates>-118.287987,34.019178</coordinates></Point>
+</Placemark>
+<Placemark><name>Gaughan Tiberti Library</name>
+<styleUrl>#Libraries</styleUrl><Point><coordinates>-118.282690,34.018679</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey Library</name>
+<styleUrl>#Libraries</styleUrl><Point><coordinates>-118.282891,34.021652</coordinates></Point>
+</Placemark>
+<Placemark><name>Wilson Dental library</name>
+<styleUrl>#Libraries</styleUrl><Point><coordinates>-118.286327,34.023952</coordinates></Point>
+</Placemark>
+<Placemark><name>Cammereli</name>
+<styleUrl>#Cafes</styleUrl><Point><coordinates>-118.283853,34.019105</coordinates></Point>
+</Placemark>
+<Placemark><name>Literatea</name>
+<styleUrl>#Cafes</styleUrl><Point><coordinates>-118.283268,34.020097</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks</name>
+<styleUrl>#Cafes</styleUrl><Point><coordinates>-118.282220,34.021658</coordinates></Point>
+</Placemark>
+<Placemark><name>Little Galen</name>
+<styleUrl>#Cafes</styleUrl><Point><coordinates>-118.287080,34.022849</coordinates></Point>
+</Placemark>
+<Placemark><name>Dulce</name>
+<styleUrl>#Cafes</styleUrl><Point><coordinates>-118.285304,34.025429</coordinates></Point>
+</Placemark>
+<Placemark><name>Joyce Cammileri Hall</name>
+<styleUrl>#Halls</styleUrl><Point><coordinates>-118.288829,34.021418</coordinates></Point>
+</Placemark>
+<Placemark><name>Alfred Newman Hall</name>
+<styleUrl>#Halls</styleUrl><Point><coordinates>-118.284662,34.019790</coordinates></Point>
+</Placemark>
+<Placemark><name>Bovard Hall</name>
+<styleUrl>#Halls</styleUrl><Point><coordinates>-118.285620,34.020821</coordinates></Point>
+</Placemark>
+<Placemark><name>Simon Ramo Hall</name>
+<styleUrl>#Halls</styleUrl><Point><coordinates>-118.284781,34.022744</coordinates></Point>
+</Placemark>
+<Placemark><name>Shrine Hall</name>
+<styleUrl>#Halls</styleUrl><Point><coordinates>-118.281385,34.023464</coordinates></Point>
+</Placemark>
+<Placemark>
+<styleUrl>#transPurpleLineGreenPoly</styleUrl> <Polygon>
+<extrude>1</extrude> <altitudeMode>relativeToGround</altitudeMode> <outerBoundaryIs>
+<LinearRing>
+<coordinates>
+-118.28269,34.018679,20
+-118.287987,34.019178,20
+-118.290529,34.019947,20
+-118.285304,34.025429,20
+-118.281385,34.023464,20
+-118.28269,34.018679,20
+</coordinates> </LinearRing>
+</outerBoundaryIs> </Polygon>
+</Placemark>
+<Placemark> <LineString>
+<coordinates>
+-118.284781,34.022744,0.
+-118.286327,34.023952,0.
+</coordinates> </LineString> <Style><LineStyle> <color>ffff0000</color> <width>10</width></LineStyle> </Style>
+</Placemark>
+<Placemark> <LineString>
+<coordinates>
+-118.284781,34.022744,0.
+-118.287080,34.022849,0.
+</coordinates> </LineString> <Style><LineStyle> <color>ffff0000</color> <width>10</width></LineStyle> </Style>
+</Placemark>
+<Placemark> <LineString>
+<coordinates>
+-118.284781,34.022744,0.
+-118.285620,34.020821,0.
+</coordinates> </LineString> <Style><LineStyle> <color>ffff0000</color> <width>10</width></LineStyle> </Style>
+</Placemark>
+<Placemark> <LineString>
+<coordinates>
+-118.284781,34.022744,0.
+-118.282891,34.021652,0.
+</coordinates> </LineString> <Style><LineStyle> <color>ffff0000</color> <width>10</width></LineStyle> </Style>
+</Placemark>
+</Document></kml>
